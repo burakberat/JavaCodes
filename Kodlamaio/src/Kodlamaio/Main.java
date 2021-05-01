@@ -20,7 +20,9 @@ public class Main {
 		
 		Student student1 = new Student(1 , "Burak Orucoglu", new Course[] {course1});
 		
-		Student[] students = {student1};
+		Student student2= new Student(2,"Ahmet Ak", new Course[] {course2});
+		
+		Student[] students = {student1,student2};
 		
 		for(Student student: students)
 		{
