@@ -1,17 +1,17 @@
 package Week4Homework3.Entities;
 
-public class Gamer {
+public class Gamer implements Entity {
 	private int id;
 	private String name;
 	private String lastName;
 	private String nationalIdentity;
-	private String birthDate;
+	private int birthDate;
 	
 	public Gamer() {
 		
 	}
 
-	public Gamer(int id, String name, String lastName, String nationalIdentity, String birthDate) {
+	public Gamer(int id, String name, String lastName, String nationalIdentity, int birthDate) {
 		this.id = id;
 		this.name = name;
 		this.lastName = lastName;
@@ -51,11 +51,11 @@ public class Gamer {
 		this.nationalIdentity = nationalIdentity;
 	}
 
-	public String getBirthDate() {
+	public int getBirthDate() {
 		return birthDate;
 	}
 
-	public void setBirthDate(String birthDate) {
+	public void setBirthDate(int birthDate) {
 		this.birthDate = birthDate;
 	}
 	
