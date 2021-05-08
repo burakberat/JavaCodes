@@ -6,7 +6,7 @@ public class Main {
 		
 		Student student1 = new Student();
 		student1.setId(1);
-		student1.setName("Burak");
+		student1.setName("Burak Berat");
 		student1.setLastName("Orucoglu");
 		student1.setStudentNumber("1001");
 		student1.setCourse("Java");
