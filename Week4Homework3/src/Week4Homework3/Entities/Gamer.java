@@ -1,4 +1,4 @@
-package Week4Homework3;
+package Week4Homework3.Entities;
 
 public class Gamer {
 	private int id;
