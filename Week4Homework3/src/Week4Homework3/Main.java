@@ -39,6 +39,7 @@ public class Main {
 		Sale sale1= new Sale(1, 1, 2);
 		SaleManager saleManager = new SaleManager();
 		saleManager.campaignPrice(game1, gamer1, sale1, campaign1);
+		saleManager.normalPrice(game1, gamer1, sale1);
 	}
 
 }
